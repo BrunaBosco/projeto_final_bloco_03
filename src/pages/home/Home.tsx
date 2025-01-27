@@ -1,4 +1,3 @@
-
 function Home() {
     return (
         <>
@@ -13,11 +12,7 @@ function Home() {
                         </p>
 
                         <div className="flex justify-around gap-4">
-                            <div className='rounded text-white 
-                                            border-white border-solid border-2 py-2 px-4'
-                                >
-                                Nova Postagem
-                            </div>
+                            <div className="flex justify-around gap-4">                          </div>
                         </div>
                     </div>
 
@@ -26,12 +21,13 @@ function Home() {
                             src="https://ik.imagekit.io/2ttuouket/pngtree-pharmacy-icon-png-image_8749513-removebg-preview.png?updatedAt=1737993751352"
                             alt="Imagem Página Home"
                             className='w-2/3'
-                        />
+                            />
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </>
-    )
-}
-
-export default Home
+        
+                </>
+            )
+        }
+        
+        export default Home
