@@ -10,10 +10,10 @@ function Navbar() {
                     Farmácia Longa Vida
 
                     <div className='flex gap-4'>
+                        <Link to='/home' className='hover:underline'>Home</Link>
                         Produto
                         <Link to='/categoria' className='hover:underline'>Categorias</Link>
                         <Link to='/cadastrarCategoria' className='hover:underline'>Cadastrar Categoria</Link>
-                        Perfil
                         Sair
                     </div>
                 </div>
